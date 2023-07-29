@@ -8,515 +8,615 @@
 -->
 
 <html lang="zxx">
+  <!-- Mirrored from themewagon.github.io/pinwheel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jul 2023 04:36:38 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- theme meta -->
+    <meta name="theme-name" content="Pinwheel" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#fff"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#000"
+    />
+    <meta name="generator" content="gulp" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<!-- Mirrored from themewagon.github.io/pinwheel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jul 2023 04:36:38 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="images/favicon.png" />
-  <!-- theme meta -->
-  <meta name="theme-name" content="Pinwheel" />
-  <meta name="msapplication-TileColor" content="#000000" />
-  <meta
-    name="theme-color"
-    media="(prefers-color-scheme: light)"
-    content="#fff"
-  />
-  <meta
-    name="theme-color"
-    media="(prefers-color-scheme: dark)"
-    content="#000"
-  />
-  <meta name="generator" content="gulp" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- responsive meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
 
-  <!-- responsive meta -->
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=5"
-  />
+    <!-- title -->
+    <title>Pinwheel-tailwind</title>
 
-  <!-- title -->
-  <title>Pinwheel-tailwind</title>
+    <!-- noindex robots -->
+    <meta name="robots" content="" />
 
-  <!-- noindex robots -->
-  <meta name="robots" content="" />
+    <!-- meta-description -->
+    <meta name="description" content="meta description" />
 
-  <!-- meta-description -->
-  <meta name="description" content="meta description" />
+    <!-- author from config.json -->
+    <meta name="author" content="{config.metadata.meta_author}" />
 
-  <!-- author from config.json -->
-  <meta name="author" content="{config.metadata.meta_author}" />
+    <!-- og-title -->
+    <meta property="og:title" content="" />
 
-  <!-- og-title -->
-  <meta property="og:title" content="" />
+    <!-- og-description -->
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
 
-  <!-- og-description -->
-  <meta property="og:description" content="" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="/" />
+    <!-- twitter-title -->
+    <meta name="twitter:title" content="" />
 
-  <!-- twitter-title -->
-  <meta name="twitter:title" content="" />
+    <!-- twitter-description -->
+    <meta name="twitter:description" content="" />
 
-  <!-- twitter-description -->
-  <meta name="twitter:description" content="" />
+    <!-- og-image -->
+    <meta property="og:image" content="" />
 
-  <!-- og-image -->
-  <meta property="og:image" content="" />
+    <!-- twitter-image -->
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- twitter-image -->
-  <meta name="twitter:image" content="" />
-  <meta name="twitter:card" content="summary_large_image" />
+    <!-- google font css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
 
-  <!-- google font css -->
-  <link rel="preconnect" href="https://fonts.googleapis.com/" />
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;display=swap"
+      rel="stylesheet"
+    />
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
-    rel="stylesheet"
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;display=swap"
-    rel="stylesheet"
-  />
+    <!-- styles -->
 
-  <!-- styles -->
+    <!-- Swiper slider -->
+    <link rel="stylesheet" href="plugins/swiper/swiper-bundle.css" />
 
-  <!-- Swiper slider -->
-  <link rel="stylesheet" href="plugins/swiper/swiper-bundle.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="plugins/font-awesome/v6/brands.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/v6/solid.css" />
+    <link rel="stylesheet" href="plugins/font-awesome/v6/fontawesome.css" />
 
-  <!-- Fontawesome -->
-  <link rel="stylesheet" href="plugins/font-awesome/v6/brands.css" />
-  <link rel="stylesheet" href="plugins/font-awesome/v6/solid.css" />
-  <link rel="stylesheet" href="plugins/font-awesome/v6/fontawesome.css" />
-
-  <!-- Main Stylesheet -->
-  <link href="styles/main.css" rel="stylesheet" />
-</head>
-<header class="header">
-  <nav class="navbar container">
-    <!-- logo -->
-    <div class="order-0">
-      <a href="index.html">
-        <img src="images/logo-pav.png" height="30" width="147" alt="logo" />
-      </a>
-    </div>
-    <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
-    <label
-      id="show-button"
-      for="nav-toggle"
-      class="order-1 flex cursor-pointer items-center lg:order-1 lg:hidden"
-    >
-      <svg class="h-6 fill-current" viewBox="0 0 20 20">
-        <title>Menu Open</title>
-        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
-      </svg>
-    </label>
-    <label
-      id="hide-button"
-      for="nav-toggle"
-      class="order-2 hidden cursor-pointer items-center lg:order-1"
-    >
-      <svg class="h-6 fill-current" viewBox="0 0 20 20">
-        <title>Menu Close</title>
-        <polygon
-          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
-          transform="rotate(45 10 10)"
-        ></polygon>
-      </svg>
-    </label>
-    <!-- /navbar toggler -->
-    <ul
-      id="nav-menu"
-      class="navbar-nav order-2 hidden w-full flex-[0_0_100%] lg:order-1 lg:flex lg:w-auto lg:flex-auto lg:justify-center lg:space-x-5"
-    >
-      <li class="nav-item">
-        <a href="index.html" class="nav-link active">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html" class="nav-link">About</a>
-      </li>
-      <li class="nav-item">
-        <a href="blog.html" class="nav-link">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a href="changelogs.html" class="nav-link">Changelogs</a>
-      </li>
-      <li class="nav-item">
-        <a href="contact.html" class="nav-link">Contact</a>
-      </li>
-      <li class="nav-item mt-3.5 lg:hidden">
-        <a class="btn btn-white btn-sm border-border" href="signin.html"
-          >Sing Up Now</a
-        > 
-      </li>
-    </ul>
-    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-      <a class="btn btn-white btn-sm" href="signin.html">Sing Up Now</a>
-    </div>
-  </nav>
-</header>
-
-<body><!-- Banner -->
-<section class="section banner relative">
-  <div class="container">
-    <div class="row items-center">
-      <div class="lg:col-6">
-        <h1 class="banner-title">
-          Da Nang Peace pet cremation
-        </h1>
-        <p class="mt-6">
-          Dịch vụ hoả táng ForeverPawprints, nơi tiễn đưa đoạn đường cuối cùng cho các thiên thần bốn chân 
-        </p>
+    <!-- Main Stylesheet -->
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+  <header class="header">
+    <nav class="navbar container">
+      <!-- logo -->
+      <div class="order-0">
+        <a href="index.html">
+          <img src="images/logo-pav.png" height="30" width="147" alt="logo" />
+        </a>
       </div>
-      <div class="lg:col-6">
-        <img
-          class="w-full object-contain"
-          src="images/logo.png"
-          width="603"
-          height="396"
-          alt=""
-        />
+      <!-- navbar toggler -->
+      <input id="nav-toggle" type="checkbox" class="hidden" />
+      <label
+        id="show-button"
+        for="nav-toggle"
+        class="order-1 flex cursor-pointer items-center lg:order-1 lg:hidden"
+      >
+        <svg class="h-6 fill-current" viewBox="0 0 20 20">
+          <title>Menu Open</title>
+          <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+        </svg>
+      </label>
+      <label
+        id="hide-button"
+        for="nav-toggle"
+        class="order-2 hidden cursor-pointer items-center lg:order-1"
+      >
+        <svg class="h-6 fill-current" viewBox="0 0 20 20">
+          <title>Menu Close</title>
+          <polygon
+            points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+            transform="rotate(45 10 10)"
+          ></polygon>
+        </svg>
+      </label>
+      <!-- /navbar toggler -->
+      <ul
+        id="nav-menu"
+        class="navbar-nav order-2 hidden w-full flex-[0_0_100%] lg:order-1 lg:flex lg:w-auto lg:flex-auto lg:justify-center lg:space-x-5"
+      >
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="changelogs.html" class="nav-link">Changelogs</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item mt-3.5 lg:hidden">
+          <a class="btn btn-white btn-sm border-border" href="signin.html"
+            >Sing Up Now</a
+          >
+        </li>
+      </ul>
+      <div
+        class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex"
+      >
+        <a class="btn btn-white btn-sm" href="signin.html">Sing Up Now</a>
       </div>
-    </div>
-  </div>
-  <img
-    class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[30%]"
-    src="images/banner-shape.svg"
-    alt=""
-  />
-</section>
-<!-- ./end Banner -->
+    </nav>
+  </header>
 
-<!-- Key features -->
-<section class="section key-feature relative">
-  <img
-    class="absolute left-0 top-0 -z-[1] -translate-y-1/2"
-    src="images/icons/feature-shape.svg"
-    alt=""
-  />
-  <div class="container">
-    <div class="row justify-between text-center lg:text-start">
-      <div class="lg:col-5">
-        <h2>Our services</h2>
-      </div>
-      <div class="mt-6 lg:col-5 lg:mt-0">
-        <p>
-          DaNang Peace pet cremation.
-        </p>
-      </div>
-    </div>
-
-    <div class="row gx-5 mt-12 items-center">
-      <div class="lg:col-7 lg:order-2">
-        <div class="relative">
-          <img
-            class="card-img"
-            src="images/Service_1.jpg"
-          />
-        </div>
-      </div>
-      <div class="mt-6 lg:col-5 lg:order-1 lg:mt-0">
-        <div class="text-container">
-          <h2 class="lg:text-4xl"> KHÔNG TRO CƠ BẢN </h2>
-          <h2 class="lg:text-4xl"> 449.000đ </h2>
-          <ul class="mt-6 text-dark lg:-ml-4">
-            <li class="mb-2 flex items-center rounded px-4">
-              <img
-                class="mr-3"
-                src="images/icons/checkmark-circle.svg"
-                alt=""
-              />
-              Thư cảm ơn
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img
-                class="mr-3"
-                src="images/icons/checkmark-circle.svg"
-                alt=""
-              />
-              Thư gửi ba mẹ
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="row gx-5 mt-16 items-center">
-      <div class="lg:col-7">
-        <div class="relative">
-          <img
-            class="w-full object-contain"
-            src="images/Service_2.jpg"
-          />
-        </div>
-      </div>
-      <div class="mt-6 lg:col-5 lg:mt-0">
-        <div class="text-container">         
-          <h2 class="lg:text-4xl">KHÔNG TRO NÂNG CAO.</h2>
-          <h2 class="lg:text-4xl">749.000đ</h2>
-          <ul class="mt-6 text-dark lg:-ml-4">
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư cảm ơn
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư gửi ba mẹ
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Lọ đựng lông
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Dấu chân in nổi nhũ vàng
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Khung ảnh size A5
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Hộp Phúc An Viên cao cấp
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="row gx-5 mt-12 items-center">
-      <div class="lg:col-7 lg:order-2">
-        <div class="relative">
-          <img
-            class="card-img"
-            src="images/Service_1.jpg"
-          />
-        </div>
-      </div>
-      <div class="mt-6 lg:col-5 lg:order-1 lg:mt-0">
-        <div class="text-container">
-          <h2 class="lg:text-4xl">LẤY TRO CƠ BẢN </h2>
-          <h2 class="lg:text-4xl"> 1.449.000đ </h2>
-          <ul class="mt-6 text-dark lg:-ml-4">
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư cảm ơn
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư gửi ba mẹ
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Lọ đựng lông
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Dấu chân in nổi nhũ vàng
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Dấu chân in mực đen
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Hộp đựng tro cùng túi dây rút
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Khung ảnh size A5
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Hộp Phúc An Viên cao cấp
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Giấy chứng nhận A4
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row gx-5 mt-16 items-center">
-      <div class="lg:col-7">
-        <div class="relative">
-          <img
-            class="w-full object-contain"
-            src="images/Service_2.jpg"
-          />
-        </div>
-      </div>
-      <div class="mt-6 lg:col-5 lg:mt-0">
-        <div class="text-container">
-          <h2 class="lg:text-4xl">LẤY TRO CƠ BẢN.</h2>
-          <h2 class="lg:text-4xl">1.999.000đ</h2>
-          <ul class="mt-6 text-dark lg:-ml-4">
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư cảm ơn
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thư gửi ba mẹ
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Lọ đựng lông
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Dấu chân in nổi nhũ vàng
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Dấu chân in mực đen
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Khung ảnh đèn led 3D cao cấp
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Thú nhồi bông 10cm hình ảnh bé
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Hũ đựng tro cùng túi dây rút
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Hộp Phúc An Viên cao cấp
-            </li>
-            <li class="mb-2 flex items-center rounded px-4">
-              <img class="mr-3" src="images/icons/checkmark-circle.svg" alt="" />
-              Giấy chứng nhận A4
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-    </div>
-  </div>
-</section>
-<!-- ./end Key features -->
-
-<!-- Call To action -->
-<section class="px-5 py-20 xl:py-[120px]">
-  <div class="container">
-    <div
-      class="bg-gradient row justify-center rounded-b-[80px] rounded-t-[20px] px-[30px] pb-[75px] pt-16"
-    >
-      <div class="lg:col-11">
-        <div class="row">
-          <div class="lg:col-7">
-            <h2 class="h1 text-white">ForeverPawprints - Da Nang Peace pet cremation</h2>
-          </div>
-          <div class="mt-8 lg:col-5 lg:mt-0">
-            <p class="text-white">
-              ForeverPawprints sẽ giúp thú cưng của bạn an nghỉ .
+  <body>
+    <!-- Banner -->
+    <section class="section banner relative">
+      <div class="container">
+        <div class="row items-center">
+          <div class="lg:col-6">
+            <h1 class="banner-title">Da Nang Peace pet cremation</h1>
+            <p class="mt-6">
+              Dịch vụ hoả táng ForeverPawprints, nơi tiễn đưa đoạn đường cuối
+              cùng cho các thiên thần bốn chân
             </p>
           </div>
+          <div class="lg:col-6">
+            <img
+              class="w-full object-contain"
+              src="images/logo.png"
+              width="603"
+              height="396"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<footer class="footer bg-theme-light/50">
-  <div class="container">
-    <div class="row gx-5 pb-10 pt-[52px]">
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <a href="index.html">
-          <img src="images/logo-pav.png" alt="" />
-        </a>
-        <p class="mt-6">
-          Chúng tôi ra đời với mục đích là nơi dừng chân bình yêu cuối cùng cho các bé.
-        </p>
+      <img
+        class="banner-shape absolute -top-28 right-0 -z-[1] w-full max-w-[30%]"
+        src="images/banner-shape.svg"
+        alt=""
+      />
+    </section>
+    <!-- ./end Banner -->
+
+    <!-- Key features -->
+    <section class="section key-feature relative">
+      <img
+        class="absolute left-0 top-0 -z-[1] -translate-y-1/2"
+        src="images/icons/feature-shape.svg"
+        alt=""
+      />
+      <div class="container">
+        <div class="row justify-between text-center lg:text-start">
+          <div class="lg:col-5">
+            <h2>Our services</h2>
+          </div>
+          <div class="mt-6 lg:col-5 lg:mt-0">
+            <p>DaNang Peace pet cremation.</p>
+          </div>
+        </div>
+
+        <div class="row gx-5 mt-12 items-center">
+          <div class="lg:col-7 lg:order-2">
+            <div class="relative">
+              <img class="card-img" src="images/Service_1.jpg" />
+            </div>
+          </div>
+          <div class="mt-6 lg:col-5 lg:order-1 lg:mt-0">
+            <div class="text-container">
+              <h2 class="lg:text-4xl">KHÔNG TRO CƠ BẢN</h2>
+              <h2 class="lg:text-4xl">449.000đ</h2>
+              <ul class="mt-6 text-dark lg:-ml-4">
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư cảm ơn
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư gửi ba mẹ
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gx-5 mt-16 items-center">
+          <div class="lg:col-7">
+            <div class="relative">
+              <img
+                class="w-full object-contain rounded-3xl"
+                src="images/Service_2.jpg"
+              />
+            </div>
+          </div>
+          <div class="mt-6 lg:col-5 lg:mt-0">
+            <div class="text-container">
+              <h2 class="lg:text-4xl">KHÔNG TRO NÂNG CAO.</h2>
+              <h2 class="lg:text-4xl">749.000đ</h2>
+              <ul class="mt-6 text-dark lg:-ml-4">
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư cảm ơn
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư gửi ba mẹ
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Lọ đựng lông
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Dấu chân in nổi nhũ vàng
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Khung ảnh size A5
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Hộp Phúc An Viên cao cấp
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gx-5 mt-12 items-center">
+          <div class="lg:col-7 lg:order-2">
+            <div class="relative">
+              <img class="card-img" src="images/Service_1.jpg" />
+            </div>
+          </div>
+          <div class="mt-6 lg:col-5 lg:order-1 lg:mt-0">
+            <div class="text-container">
+              <h2 class="lg:text-4xl">LẤY TRO CƠ BẢN</h2>
+              <h2 class="lg:text-4xl">1.449.000đ</h2>
+              <ul class="mt-6 text-dark lg:-ml-4">
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư cảm ơn
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư gửi ba mẹ
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Lọ đựng lông
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Dấu chân in nổi nhũ vàng
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Dấu chân in mực đen
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Hộp đựng tro cùng túi dây rút
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Khung ảnh size A5
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Hộp Phúc An Viên cao cấp
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Giấy chứng nhận A4
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gx-5 mt-16 items-center">
+          <div class="lg:col-7">
+            <div class="relative">
+              <img class="w-full object-contain" src="images/Service_2.jpg" />
+            </div>
+          </div>
+          <div class="mt-6 lg:col-5 lg:mt-0">
+            <div class="text-container">
+              <h2 class="lg:text-4xl">LẤY TRO CƠ BẢN.</h2>
+              <h2 class="lg:text-4xl">1.999.000đ</h2>
+              <ul class="mt-6 text-dark lg:-ml-4">
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư cảm ơn
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thư gửi ba mẹ
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Lọ đựng lông
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Dấu chân in nổi nhũ vàng
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Dấu chân in mực đen
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Khung ảnh đèn led 3D cao cấp
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Thú nhồi bông 10cm hình ảnh bé
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Hũ đựng tro cùng túi dây rút
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Hộp Phúc An Viên cao cấp
+                </li>
+                <li class="mb-2 flex items-center rounded px-4">
+                  <img
+                    class="mr-3"
+                    src="images/icons/checkmark-circle.svg"
+                    alt=""
+                  />
+                  Giấy chứng nhận A4
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
-        <p>phucanvienhoatangthucung@gmail.com</p>
-        <ul class="social-icons mt-4 lg:mt-6">
-          <li>
-            <a href="https://www.facebook.com/Peacepetcremation">
-              <svg
-                width="19"
-                height="21"
-                viewBox="0 0 20 21"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg" >
-                <path
-                  d="M19.1056 10.4495C19.1056 5.09642 15 0.759277 9.9327 0.759277C4.86539 0.759277 0.759766 5.09642 0.759766 10.4495C0.759766 15.2946 4.08865 19.3191 8.49018 20.0224V13.2627H6.15996V10.4495H8.49018V8.33951C8.49018 5.91696 9.85872 4.54939 11.93 4.54939C12.9657 4.54939 14.0013 4.74476 14.0013 4.74476V7.12823H12.8547C11.7081 7.12823 11.3382 7.87063 11.3382 8.65209V10.4495H13.8904L13.4835 13.2627H11.3382V20.0224C15.7398 19.3191 19.1056 15.2946 19.1056 10.4495Z"
-                  fill="#222222"
-                />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@phucanvienhoatangthucung?fbclid=IwAR144F9g5O19SeFV-9CJmSJFRpYxSwJpWQhcGEKFhzdLBnbev6e71m_o11k">
-              <svg
-                width="19"
-                height="15"
-                viewBox="0 0 19 15"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16.3308 3.92621C17.0129 3.42889 17.6269 2.83209 18.1044 2.13583C17.4904 2.40108 16.7742 2.60001 16.0579 2.66632C16.8083 2.2353 17.354 1.5722 17.6269 0.743317C16.9447 1.14118 16.1603 1.43958 15.3758 1.60535C14.6937 0.909093 13.7728 0.51123 12.7496 0.51123C10.7714 0.51123 9.16837 2.06952 9.16837 3.99252C9.16837 4.25777 9.20248 4.52301 9.27069 4.78825C6.3034 4.62247 3.64307 3.22995 1.86952 1.14118C1.56256 1.63851 1.39202 2.2353 1.39202 2.8984C1.39202 4.09199 2.00595 5.15296 2.99504 5.7829C2.41523 5.74975 1.83541 5.61713 1.35792 5.35189V5.38504C1.35792 7.07596 2.58576 8.46847 4.22289 8.80002C3.95003 8.86633 3.60897 8.93265 3.302 8.93265C3.06326 8.93265 2.85862 8.89949 2.61987 8.86633C3.06326 10.2589 4.39342 11.2535 5.96233 11.2867C4.73449 12.215 3.19968 12.7786 1.52845 12.7786C1.22149 12.7786 0.948636 12.7455 0.675781 12.7123C2.24469 13.707 4.12057 14.2706 6.16698 14.2706C12.7496 14.2706 16.3308 8.99896 16.3308 4.39039C16.3308 4.22461 16.3308 4.09199 16.3308 3.92621Z"
-                  fill="#222222"
-                />
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/peacepetcremationdanang/?fbclid=IwAR2ziu7iJRYAmcqNegS8DLz7OsXS2oXyExbPxpk6LGB4ooEdObw09_2r1pE">
-              <svg
-                width="19"
-                height="16"
-                viewBox="0 0 19 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.56609 15.2704V5.45315H0.948103V15.2704H4.56609ZM2.73764 4.1398C3.90474 4.1398 4.83841 3.31895 4.83841 2.33394C4.83841 1.38176 3.90474 0.59375 2.73764 0.59375C1.60945 0.59375 0.675781 1.38176 0.675781 2.33394C0.675781 3.31895 1.60945 4.1398 2.73764 4.1398ZM18.0654 15.2704H18.1044V9.8857C18.1044 7.259 17.4041 5.22331 13.7472 5.22331C11.9966 5.22331 10.8295 6.04415 10.3237 6.79933H10.2848V5.45315H6.82246V15.2704H10.4404V10.411C10.4404 9.13053 10.7128 7.91568 12.5801 7.91568C14.4475 7.91568 14.4864 9.36036 14.4864 10.5095V15.2704H18.0654Z"
-                  fill="#222222"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
+    </section>
+    <!-- ./end Key features -->
+
+    <!-- Call To action -->
+    <section class="px-5 py-20 xl:py-[120px]">
+      <div class="container">
+        <div
+          class="bg-gradient row justify-center rounded-b-[80px] rounded-t-[20px] px-[30px] pb-[75px] pt-16"
+        >
+          <div class="lg:col-11">
+            <div class="row">
+              <div class="lg:col-7">
+                <h2 class="h1 text-white">
+                  ForeverPawprints - Da Nang Peace pet cremation
+                </h2>
+              </div>
+              <div class="mt-8 lg:col-5 lg:mt-0">
+                <p class="text-white">
+                  ForeverPawprints sẽ giúp thú cưng của bạn an nghỉ .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Location & Contact</h6>
-        <p>Hoà Sơn, Da Nang, Vietnam</p>
-        <p>0972 427 197</p>
+    </section>
+
+    <footer class="footer bg-theme-light/50">
+      <div class="container">
+        <div class="row gx-5 pb-10 pt-[52px]">
+          <div class="col-12 mt-12 md:col-6 lg:col-3">
+            <a href="index.html">
+              <img src="images/logo-pav.png" alt="" />
+            </a>
+            <p class="mt-6">
+              Chúng tôi ra đời với mục đích là nơi dừng chân bình yêu cuối cùng
+              cho các bé.
+            </p>
+          </div>
+          <div class="col-12 mt-12 md:col-6 lg:col-3">
+            <h6>Socials</h6>
+            <p>phucanvienhoatangthucung@gmail.com</p>
+            <ul class="social-icons mt-4 lg:mt-6">
+              <li>
+                <a href="https://www.facebook.com/Peacepetcremation">
+                  <svg
+                    width="19"
+                    height="21"
+                    viewBox="0 0 20 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.1056 10.4495C19.1056 5.09642 15 0.759277 9.9327 0.759277C4.86539 0.759277 0.759766 5.09642 0.759766 10.4495C0.759766 15.2946 4.08865 19.3191 8.49018 20.0224V13.2627H6.15996V10.4495H8.49018V8.33951C8.49018 5.91696 9.85872 4.54939 11.93 4.54939C12.9657 4.54939 14.0013 4.74476 14.0013 4.74476V7.12823H12.8547C11.7081 7.12823 11.3382 7.87063 11.3382 8.65209V10.4495H13.8904L13.4835 13.2627H11.3382V20.0224C15.7398 19.3191 19.1056 15.2946 19.1056 10.4495Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.tiktok.com/@phucanvienhoatangthucung?fbclid=IwAR144F9g5O19SeFV-9CJmSJFRpYxSwJpWQhcGEKFhzdLBnbev6e71m_o11k"
+                >
+                  <svg
+                    width="19"
+                    height="15"
+                    viewBox="0 0 19 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.3308 3.92621C17.0129 3.42889 17.6269 2.83209 18.1044 2.13583C17.4904 2.40108 16.7742 2.60001 16.0579 2.66632C16.8083 2.2353 17.354 1.5722 17.6269 0.743317C16.9447 1.14118 16.1603 1.43958 15.3758 1.60535C14.6937 0.909093 13.7728 0.51123 12.7496 0.51123C10.7714 0.51123 9.16837 2.06952 9.16837 3.99252C9.16837 4.25777 9.20248 4.52301 9.27069 4.78825C6.3034 4.62247 3.64307 3.22995 1.86952 1.14118C1.56256 1.63851 1.39202 2.2353 1.39202 2.8984C1.39202 4.09199 2.00595 5.15296 2.99504 5.7829C2.41523 5.74975 1.83541 5.61713 1.35792 5.35189V5.38504C1.35792 7.07596 2.58576 8.46847 4.22289 8.80002C3.95003 8.86633 3.60897 8.93265 3.302 8.93265C3.06326 8.93265 2.85862 8.89949 2.61987 8.86633C3.06326 10.2589 4.39342 11.2535 5.96233 11.2867C4.73449 12.215 3.19968 12.7786 1.52845 12.7786C1.22149 12.7786 0.948636 12.7455 0.675781 12.7123C2.24469 13.707 4.12057 14.2706 6.16698 14.2706C12.7496 14.2706 16.3308 8.99896 16.3308 4.39039C16.3308 4.22461 16.3308 4.09199 16.3308 3.92621Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/peacepetcremationdanang/?fbclid=IwAR2ziu7iJRYAmcqNegS8DLz7OsXS2oXyExbPxpk6LGB4ooEdObw09_2r1pE"
+                >
+                  <svg
+                    width="19"
+                    height="16"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.56609 15.2704V5.45315H0.948103V15.2704H4.56609ZM2.73764 4.1398C3.90474 4.1398 4.83841 3.31895 4.83841 2.33394C4.83841 1.38176 3.90474 0.59375 2.73764 0.59375C1.60945 0.59375 0.675781 1.38176 0.675781 2.33394C0.675781 3.31895 1.60945 4.1398 2.73764 4.1398ZM18.0654 15.2704H18.1044V9.8857C18.1044 7.259 17.4041 5.22331 13.7472 5.22331C11.9966 5.22331 10.8295 6.04415 10.3237 6.79933H10.2848V5.45315H6.82246V15.2704H10.4404V10.411C10.4404 9.13053 10.7128 7.91568 12.5801 7.91568C14.4475 7.91568 14.4864 9.36036 14.4864 10.5095V15.2704H18.0654Z"
+                      fill="#222222"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-12 md:col-6 lg:col-3">
+            <h6>Location & Contact</h6>
+            <p>Hoà Sơn, Da Nang, Vietnam</p>
+            <p>0972 427 197</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="container max-w-[1440px]">
-    <div
-      class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center" >
-      <p>Designed And Developed by ReWorld-Unihack</p>     
-    </div>
-  </div>
-</footer>
+      <div class="container max-w-[1440px]">
+        <div
+          class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
+        >
+          <p>Designed And Developed by ReWorld-Unihack</p>
+        </div>
+      </div>
+    </footer>
 
-<!-- jQuery -->
-<!-- <script src="plugins/jquery/jquery.min.js"></script> -->
-<!-- Swiper JS -->
-<script src="plugins/swiper/swiper-bundle.js"></script>
-<script src="plugins/shufflejs/shuffle.js"></script>
+    <!-- jQuery -->
+    <!-- <script src="plugins/jquery/jquery.min.js"></script> -->
+    <!-- Swiper JS -->
+    <script src="plugins/swiper/swiper-bundle.js"></script>
+    <script src="plugins/shufflejs/shuffle.js"></script>
 
-<!-- Main Script -->
-<script src="scripts/main.js"></script>
+    <!-- Main Script -->
+    <script src="scripts/main.js"></script>
+  </body>
 
-</body>
-
-<!-- Mirrored from themewagon.github.io/pinwheel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jul 2023 04:36:54 GMT -->
+  <!-- Mirrored from themewagon.github.io/pinwheel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jul 2023 04:36:54 GMT -->
 </html>
