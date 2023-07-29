@@ -205,13 +205,13 @@
           </a>
         </li>
         <li class="leading-none text-dark">
-          <span class="text-sm leading-none">/ Contact</span>
+          <span class="text-sm leading-none">/ Your blog</span>
         </li>
       </ul>
     </div>
     <div class="page-hero-content mx-auto max-w-[768px] text-center">
       <h1 class="mb-5 mt-8">
-        Contact to book service
+        Create your blog
       </h1>
     </div>
   </div>
@@ -222,69 +222,35 @@
   <div class="container">
     <div class="row">
       <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
-        <div class="form-group mb-5 "  style="margin-bottom: 90px"> 
-          <label class="form-label relative flex" for="name">Delivery method </label>
-          <div class="form-group relative flex pl-6 text-center">
-            <input
-              class="absolute left-0 top-1"
-              type="checkbox"
-              id="save-info"
-            />
-            <label class="block" for="save-info">Pick up and drop off</label>
-          </div>
-        </div>
-        <div class="form-group mb-5" style="margin-bottom: 90px">
-          <label class="form-label relative flex" for="name">Cremation time </label>
-          <div class="form-group relative flex pl-6 text-center">
-            <input
-              class="absolute left-0 top-1"
-              type="checkbox"
-              id="save-info"
-            />
-            <label class="block" for="save-info">Cremation of the day +300k</label>
-          </div>
-        </div>
-        <div class="form-group mb-5" >
-          <label class="form-label relative flex" for="name">Cremation of the day +300k</label>
-          <div class="form-group relative flex pl-6 text-center">
-            <input
-              class="absolute left-0 top-1"
-              type="checkbox"
-              id="save-info"
-            />
-            <label class="block" for="save-info">MOMO</label>
-          </div>
-          <div class="form-group relative flex pl-6 text-center">
-            <input
-              class="absolute left-0 top-1"
-              type="checkbox"
-              id="save-info"
-            />
-            <label class="block" for="save-info">Zalo</label>
-          </div>
+        <div class="form-group mb-5">
+          <label class="form-label" for="eamil">Image</label>
+          <input
+            type="file"
+          />
         </div>
       </div>
       <div class="md:col-6 md:order-1">
         <form class="lg:max-w-[484px]" action="#" method="POST">
           <div class="form-group mb-5">
-            <label class="form-label" for="name">Full Name</label>
+            <label class="form-label" for="name">Title</label>
             <input
               class="form-control"
               type="text"
-              id="name"
-              placeholder="Your Full Name"
+              id="title"
+              placeholder="Title"
             />
           </div>
           <div class="form-group mb-5">
-            <label class="form-label" for="eamil">Phone</label>
-            <input
-              class="form-control"
-              type="text"
-              placeholder="Phone"
-            />
-          </div>
+            <label class="form-label" for="description">Description</label>
+            <textarea
+              class="form-control h-[150px]"
+              id="description"
+              cols="30"
+              rows="10">
+            </textarea>
+          </div> 
           <div class="form-group mb-5">
-            <label class="form-label" for="eamil">Street</label>
+            <label class="form-label" for="eamil">Aninamls</label>
             <input
               class="form-control"
               type="text"
@@ -292,13 +258,13 @@
             />
           </div>     
           <div class="form-group mb-5">
-            <label class="form-label" for="eamil">Street Detail</label>
+            <label class="form-label" for="eamil">Species</label>
             <input
               class="form-control"
               type="text"
-              placeholder="Street Detail"
+              placeholder="Species"
             />
-          </div>     
+          </div>    
           <input
             class="btn btn-primary block w-full"
             type="submit"
